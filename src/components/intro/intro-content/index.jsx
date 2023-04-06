@@ -24,9 +24,7 @@ const IntroContent = () => {
                         <span className="big-text">Diva</span>
                     </h1>
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500
+                        I am Web Developer / UI UX Designer Me have 6 year + experience, Contact me for my service.
                     </p>
                     <CallToAction text="Contact me" />
                 </div>
