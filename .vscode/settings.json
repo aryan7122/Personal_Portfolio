@@ -1,0 +1,6 @@
+{
+    "editor.cursorSmoothCaretAnimation": "explicit",
+    "editor.cursorStyle": "block",
+    "editor.cursorSurroundingLinesStyle": "all",
+    "diffEditor.codeLens": true
+}
