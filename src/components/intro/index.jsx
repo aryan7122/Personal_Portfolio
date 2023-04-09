@@ -1,9 +1,9 @@
 import React from "react";
 
-import cloud from "../../images/cloud.png";
-import cloudSoft from "../../images/cloud-soft.png";
 import Navigation from "./navigation-bar";
 import IntroContent from "./intro-content";
+import cloud from "../../images/cloud.png";
+import cloudSoft from "../../images/cloud-soft.png";
 
 import "./style.scss";
 

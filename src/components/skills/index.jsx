@@ -1,9 +1,10 @@
 import React from "react";
 import { AiOutlineCloudDownload } from "react-icons/ai";
 
-import Section from "../shared/section";
-import TechIcons from "../../images/tech-icons.png";
 import CallToAction from "../shared/CallToAction";
+import TechIcons from "../../images/tech-icons.png";
+import Section from "../shared/section";
+import Resume from "../../download/file-sample_150kB.pdf";
 
 import "./style.scss";
 
@@ -17,7 +18,7 @@ const Skills = () => {
                 <div className="left-col">
                     <img
                         src={TechIcons}
-                        alt="JS,React,HTMl,CSS"
+                        alt="JavaScript, React, CSS, HTML, SASS, Photoshop, Figma"
                     />
                 </div>
                 <div className="right-col">
@@ -35,6 +36,7 @@ const Skills = () => {
                     <CallToAction
                         text="Download CV"
                         icon={<AiOutlineCloudDownload />}
+                        action={() => window.open(Resume)}
                     />
                 </div>
             </div>

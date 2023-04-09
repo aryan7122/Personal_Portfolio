@@ -5,6 +5,7 @@ import { FaUser } from "react-icons/fa";
 import girl from "../../../images/girl.png";
 import hand from "../../../images/hand.png";
 import CallToAction from "../../shared/CallToAction";
+import { scrollToSection } from "../../utils/helpers";
 
 import "./style.scss";
 
@@ -21,17 +22,24 @@ const IntroContent = () => {
                             </span>
                             <span className="text">, I Am</span>
                         </span>
-                        <span className="big-text">Diva</span>
+                        <span className="big-text">Diya Rajput </span>
                     </h1>
-                    <p>
-                        I am Web Developer / UI UX Designer Me have 6 year + experience, Contact me for my service.
+                    <p className="title">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500
                     </p>
-                    <CallToAction text="Contact me" />
+                    <CallToAction
+                        text="Contact me"
+                        action={() => {
+                            scrollToSection("contact");
+                        }}
+                    />
                 </div>
                 <div className="right-col">
                     <img
                         src={girl}
-                        alt="JS Dev Hindi"
+                        alt="Hello I am Keniya Andrew"
                     />
 
                     <div className="highlights horizontal">
