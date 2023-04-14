@@ -1,3 +1,8 @@
+[build]
+  command = "npm run build"
+  publis = "/build"
+  base = "/"
+
 [[redirexts]]
 from = "/*"
 to = "/index.html"
